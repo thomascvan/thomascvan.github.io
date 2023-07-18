@@ -23,11 +23,17 @@ const Hero = (props) => {
       <Section row nopadding>
         <LeftSection>
           <SectionTitle main center>
-            Welcome To <br />
-            My Personal Portfolio
+            Hi, I'm Thomas 👋
           </SectionTitle>
           <SectionText>
-          The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          <em>A highly personable, analytical, results-driven full stack engineer with 10 years of experience solving complex problems both as a support specialist and as a team lead.
+          <br/>
+          <br/>
+          I work in multi-disciplinary teams at all levels.
+          <br/>
+          <br/>
+          I help projects succeed.
+          </em>
           </SectionText>
           <Button onClick={handleDownloadResume}>Download Resume</Button>
         </LeftSection>
