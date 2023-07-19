@@ -14,7 +14,7 @@ const Header = () =>  (
         </a>
       </Link>
     </Div1>
-    <Div2>
+    {/* <Div2>
       <li>
         <Link href="#timeline">
           <NavLink>Experience</NavLink>
@@ -30,12 +30,7 @@ const Header = () =>  (
           <NavLink>Projects</NavLink>
         </Link>
       </li>
-      {/* <li>
-        <a href="https://drive.google.com/u/0/uc?id=1SzdC6qj3iYQB23hTXB7l1AapJ1V3mVU1&export=download">
-          <NavLink>Resume</NavLink>
-        </a>
-      </li> */}
-    </Div2>
+    </Div2> */}
       <Div3>
       <SocialIcons href="https://github.com/thomascvan">
             <AiFillGithub size="3rem" />
