@@ -1,21 +1,26 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+    import { Section, SectionText, SectionTitle,  SectionDivider} from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, ExternalLinks } from './HeroStyles';
 
 const Hero = (props) => {
 
   const handleDownloadResume = () => {
-    const resumeDownloadLink = 'https://drive.google.com/u/0/uc?id=1SzdC6qj3iYQB23hTXB7l1AapJ1V3mVU1&export=download';
+    // // const resumeDownloadLink = 'https://drive.google.com/file/d/1SzdC6qj3iYQB23hTXB7l1AapJ1V3mVU1/view?usp=sharing';
+    // const resumeDownloadLink = 'https://drive.google.com/u/0/uc?id=1SzdC6qj3iYQB23hTXB7l1AapJ1V3mVU1&export=download';
 
-    const downloadLink = document.createElement('a');
-    downloadLink.href = resumeDownloadLink;
-    downloadLink.download = 'resume.pdf';
-    downloadLink.target = '_blank';
-    downloadLink.rel = 'noopener noreferrer';
+    // const downloadLink = document.createElement('a');
+    // downloadLink.href = resumeDownloadLink;
+    // downloadLink.download = 'resume.pdf';
+    // downloadLink.target = '_blank';
+    // downloadLink.rel = 'noopener noreferrer';
 
-    downloadLink.click();
+    // downloadLink.click();
+
+    var linkUrl = 'https://drive.google.com/file/d/1SzdC6qj3iYQB23hTXB7l1AapJ1V3mVU1/view?usp=sharing';
+
+    window.open(linkUrl, '_blank');
   };
 
   return (
@@ -35,7 +40,11 @@ const Hero = (props) => {
           I help projects succeed.
           </em>
           </SectionText>
-          <Button onClick={handleDownloadResume}>Download Resume</Button>
+          <ExternalLinks href={'https://drive.google.com/u/0/uc?id=1SzdC6qj3iYQB23hTXB7l1AapJ1V3mVU1&export=download'}>
+            {/* <Button onClick={handleDownloadResume}>Download Resume</Button> */}
+            Download Resume
+            {/* <Button>Download Resume</Button> */}
+          </ExternalLinks>
         </LeftSection>
       </Section>
     </>

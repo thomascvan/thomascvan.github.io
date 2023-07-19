@@ -44,6 +44,8 @@ const Timeline = () => {
 
   return (
     <Section id="timeline">
+    <br></br>
+    <br></br>
     {/* <Section id="about"> */}
       {/* <SectionTitle>About Me</SectionTitle>
       <SectionText>
