@@ -1,12 +1,30 @@
 export const projects = [
   {
-    title: 'title',
-    description: "Description.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Atelier',
+    description: "Product page for streetwear e-commerce web app, with features allowing customers to research, review, and purchase products.",
+      image: 'https://github.com/Atelier-GoldenEye/Atelier/blob/main/README-Photos/overview-1.png?raw=true',
+      tags: ['HTML5/CSS3'],
+      visit: 'https://github.com/Atelier-GoldenEye/Atelier',
+      source: 'https://github.com/Atelier-GoldenEye/Atelier',
     id: 0,
+  },
+  {
+    title: 'API System Design',
+    description: "Microservice architecture back end for e-commerce web app, with design optimizations to withstand web scale traffic.",
+    image: 'https://drive.google.com/uc?export=view&id=1h7lANWT1yCSGDClChXVcvUn322wljYfO',
+    tags: [ 'MongoDB'],
+    visit: 'https://github.com/SDC-Adrastea/Product-Overview',
+    source: 'https://github.com/SDC-Adrastea/Product-Overview',
+    id: 1,
+  },
+  {
+    title: 'Paw Pals',
+    description: "Pet themed mobile social media app with geolocation, photo sharing and chat features.",
+      image: 'https://drive.google.com/uc?export=view&id=1NSSM4PACFPH-WwDVuqKvLKfVW1dWHJQ4',
+      tags: ['React', 'PostgreSQL'],
+    visit: 'https://github.com/BugBustersOriginal/Paw-Pals',
+    source: 'https://github.com/BugBustersOriginal/Paw-Pals',
+    id: 2,
   }
 ];
 
