@@ -43,7 +43,8 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+    <Section id="timeline">
+    {/* <Section id="about"> */}
       {/* <SectionTitle>About Me</SectionTitle>
       <SectionText>
         <em>A highly personable, analytical, results-driven full stack engineer with 10 years of experience solving complex problems both as a support specialist and as a team lead.

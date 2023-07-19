@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillMail, AiFillLinkedin  } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
@@ -16,13 +16,13 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#timeline">
+          <NavLink>Experience</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+          <NavLink>Technical Skills</NavLink>
         </Link>
       </li>
       <li>
@@ -30,17 +30,22 @@ const Header = () =>  (
           <NavLink>Projects</NavLink>
         </Link>
       </li>
+      {/* <li>
+        <a href="https://drive.google.com/u/0/uc?id=1SzdC6qj3iYQB23hTXB7l1AapJ1V3mVU1&export=download">
+          <NavLink>Resume</NavLink>
+        </a>
+      </li> */}
     </Div2>
       <Div3>
-        <SocialIcons href="https://google.com">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillInstagram size="3rem"/>
-        </SocialIcons>
+      <SocialIcons href="https://github.com/thomascvan">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/thomascvan/">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="mailto:thomascvan11@gmail.com">
+          <AiFillMail size="3rem"/>
+          </SocialIcons>
       </Div3>
     </Container>
 );
