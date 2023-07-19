@@ -11,7 +11,7 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
     <br/>
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Technical Skills</SectionTitle>
 
     <List>
     <ListItem>
